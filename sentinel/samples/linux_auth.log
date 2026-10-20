@@ -1,0 +1,7 @@
+Oct 18 09:10:01 sentinel-lab sshd[2101]: Failed password for invalid user deploy from 198.51.100.88 port 39101 ssh2
+Oct 18 09:10:08 sentinel-lab sshd[2103]: Failed password for invalid user deploy from 198.51.100.88 port 39102 ssh2
+Oct 18 09:10:15 sentinel-lab sshd[2105]: Failed password for invalid user deploy from 198.51.100.88 port 39103 ssh2
+Oct 18 09:10:22 sentinel-lab sshd[2107]: Failed password for invalid user deploy from 198.51.100.88 port 39104 ssh2
+Oct 18 09:10:30 sentinel-lab sshd[2109]: Failed password for invalid user deploy from 198.51.100.88 port 39105 ssh2
+Oct 18 09:10:45 sentinel-lab sshd[2111]: Accepted password for deploy from 198.51.100.88 port 39106 ssh2
+Oct 18 09:12:00 sentinel-lab sshd[2150]: Accepted publickey for secops from 192.0.2.55 port 50222 ssh2

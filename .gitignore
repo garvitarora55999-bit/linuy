@@ -1,0 +1,47 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python caches, build artifacts, and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Generated reports and session caches (keep only reports/.gitkeep)
+reports/*
+!reports/.gitkeep
+reports/.last_run_cache.json
+
+# Real authentication logs and sensitive test outputs
+*.log
+!samples/linux_auth.log
+!sentinel/samples/linux_auth.log
+auth.log*
+secure*
+*.evtx
+
+# Local configuration, environment files, and secrets
+.env
+.env.*
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+secrets.*
+
+# OS and editor temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~

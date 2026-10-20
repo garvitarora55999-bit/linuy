@@ -1,0 +1,19 @@
+include LICENSE
+include README.md
+include SECURITY.md
+include requirements.txt
+include sentinel.py
+recursive-include sentinel/samples *.jsonl *.log *.json
+prune tests
+prune samples
+prune reports
+prune build
+prune dist
+prune .venv
+prune venv
+prune env
+prune .pytest_cache
+prune .mypy_cache
+prune .ruff_cache
+exclude reports/.last_run_cache.json
+global-exclude __pycache__ *.py[cod] *$py.class *.swp *.swo *~ .DS_Store Thumbs.db .coverage *.egg-info

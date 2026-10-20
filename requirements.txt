@@ -1,0 +1,8 @@
+# Runtime dependencies for LINUY
+# Note: LINUY also includes native stdlib/OS fallbacks (/proc on Linux and
+# allowlisted System32 tools on Windows) so the CLI operates even in minimal
+# offline environments before pip packages are installed.
+# All automated tests in tests/ run with Python's built-in unittest module
+# (`python3 -m unittest discover -s tests -v`) without requiring external test
+# runners (avoiding pytest PYSEC-2026-1845 / CVE-2025-71176 shared /tmp exposure).
+psutil>=5.9.8,<7.0.0
